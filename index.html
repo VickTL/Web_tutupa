@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutupá Podcast</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <img src="img/tutupa_logo.png" alt="">
+
+        <div class="titulo">
+            <h1>Tutupá</h1>
+            <h2>Un podcast musical creado por JuanVick y MarioEstáBien.</h2>
+        </div>
+       
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Lista de episodios</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Tienda</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h3>Último episodio</h3>
+        
+        <div w3-include-html="episodios/season-1/ep1.html"></div> 
+
+        <script>
+             w3IncludeHTML();
+        </script>        
+    </main>
+</body>
+</html>
